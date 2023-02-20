@@ -147,7 +147,7 @@ footer{
     margin-top: 40px;
 }
 
-@media (min-width: 760px){
+@media (max-width: 760px){
     main, aside{
         width: 100%;
         float: none;
