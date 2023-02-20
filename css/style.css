@@ -148,6 +148,31 @@ footer{
 }
 
 @media (max-width: 760px){
+    #presentacion{
+       background-size: contain;
+       background-repeat: no-repeat;
+    }
+
+    #presentacion h2{
+        width: 50%;
+        color: rgb(20, 74, 199);
+        font-weight:bolder;
+        font-size: 20px;
+        line-height: 1.6em;
+        padding-top: 30px;
+    }
+    #presentacion h3{
+        position: relative;
+        width: 40%;
+        color: rgb(20, 74, 199);
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 1.6em;
+        padding-top: 30px;
+        margin: 10px 0 0 190px;
+    }
+    
+
     main, aside{
         width: 100%;
         float: none;
